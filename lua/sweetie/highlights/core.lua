@@ -34,12 +34,12 @@ core.setup = function(palette)
     WildMenu = { fg = palette.bg_alt, bg = palette.blue },
     WinSeparator = { fg = palette.bg_alt },
 
-    TabLine = { fg = palette.grey, bg = palette.bg, bold = true },
-    TabLineSel = { fg = palette.bg_alt, bg = palette.grey, bold = true },
+    TabLine = { fg = palette.grey, bg = palette.bg, bold = false },
+    TabLineSel = { fg = palette.fg, bg = palette.teal, bold = true },
     TabLineFill = { bg = palette.bg_alt, bold = true },
 
-    StatusLine = { fg = palette.fg, bg = palette.bg_alt },
-    StatusLineNC = { fg = palette.fg_alt, bg = palette.bg },
+    StatusLine = { fg = palette.fg, bg = palette.bg_darker},
+    StatusLineNC = { fg = palette.fg_alt, bg = palette.bg_alt},
 
     Pmenu = { fg = palette.fg_alt, bg = palette.bg_alt },
     PmenuSel = { fg = palette.bg_alt, bg = palette.blue },

@@ -16,6 +16,7 @@ highlights.setup = function()
     require("sweetie.highlights.treesitter").setup(palette),
     require("sweetie.highlights.languages").setup(palette),
     require("sweetie.highlights.plugins").setup(palette, config),
+    require("sweetie.highlights.latex").setup(palette),
   }
 
   --- Apply highlighting groups
